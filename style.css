@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navigation_bar
+{
+    height: fit-content;
+    width: 100%;
+    border: 1px solid red;
+    font-family: 'Manrope', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container
+{
+    display: flex;
+}
+
+.logo
+{
+    height: fit-content;
+    width: fit-content;
+    font-size: 22px;
+    font-weight: 800;
+    color: #1E1B1B;
+}
+
+ul
+{
+    display: flex;
+    margin-inline: 220px;
+}
+
+li
+{
+    margin-inline: 25px;
+    list-style: none;
+
+}
+
+.home{
+    text-decoration: none;
+    color: #1E1B1B;
+}
+
+.about_us{
+    text-decoration: none;
+    color: #1E1B1B;
+}
+
+.services{
+    text-decoration: none;
+    color: #1E1B1B;
+}
+
+.blogs{
+    text-decoration: none;
+    color: #1E1B1B;
+}
+
+.contatcs{
+    text-decoration: none;
+    color: #1E1B1B;
+}
+
+.header
+{
+    height: fit-content;
+    width: 100%;
+}
+
+.header_body
+{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_area
+{
+    width: 40%;
+    height: fit-content;
+    margin-left: 100px;
+}
+
+.landing_text
+{
+    width: 70%;
+    font-size: 30px;
+}
+
+button
+{
+    padding: 19.65px 30px; 
+    border: none; 
+    background-color:#FF6433;
+    color: white; 
+    font-size: 14px;
+    border-radius: 14px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.clock_container
+{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: fit-content;
+}
+
+.clock_image
+{
+    height: 6vh;
+    width: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock
+{
+    height: 4vh;
+    width: 4vh;
+    background-image: url(./Assets/Photos/clock\ Icon.png);
+    background-repeat: no-repeat;
+}
+
+.opening_hours
+{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 20px;
+}
+
+.open
+{
+    font-size: 14px;
+    font-weight: 300;
+    color: #939191;
+}
+
+.days
+{
+    font-weight: 500;
+}
+
+.image_area
+{
+    width: 50%;
+    height: fit-content;
+}
+
+.image
+{
+    background-image: url(./Assets/Photos/Header\ Image.png);
+    height: 60vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.car_services
+{
+    height: fit-content;
+    width: 100%;
+    font-family: 'Manrope', sans-serif;
+}
+
+.services_page
+{
+    height: 80vh;
+    width: 100%;
+    background-color: #E2E6E9;
+    display: flex;
+}
+
+.left_content
+{
+    height: 80vh;
+    width: 50%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_container
+{
+    height: fit-content;
+    width: 70%;
+    border: 1px solid red;
+    margin-left: 30px;
+}
+
+.left_header
+{
+    font-size: 24px;
+    border: 1px solid black;
+    width: 70%;
+}
+
+.item1
+{
+    
+}
+
+.right_content
+{
+    height: 80vh;
+    width: 50%;
+    border: 1px solid red;
+}
